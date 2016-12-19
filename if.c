@@ -1,4 +1,8 @@
 #include<stdio.h>
 int main(){
-	printf("yo");
+	int grade;
+	
+	printf("Enter grade: ");
+	scanf("%d", &grade);
+	printf("Grade is: %d", grade);	
 }
